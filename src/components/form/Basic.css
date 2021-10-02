@@ -39,7 +39,7 @@ overflow: hidden;
     border: none;
     outline: none;
     color: #fff;
-    background-color:rgba(0,0,0,0.1);
+   background: none;
 }
 .form label {
     position:absolute;
@@ -67,7 +67,7 @@ border-bottom: 1px solid white;
     transition: .3s all ease;
 }
 .form input:focus + .labelName  .contentName{
-    transform: translateY(-200%);
+    transform: translateY(-230%);
     font-size: 14px;
 }
 .form span {
